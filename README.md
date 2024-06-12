@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Starter Template
+
+Welcome to this Next.js starter template, built with **Next.js 14.2.1**. This template provides a streamlined setup with a basic header and side navigation, ready for you to kickstart your project.
+
+## Features
+
+This starter pack includes the following pre-installed packages and configurations:
+
+### Pre-installed Packages
+
+-   **[Shadcn](https://shadcn.dev/)**: A framework for building components.
+-   **[Tailwind CSS](https://tailwindcss.com/)**: A utility-first CSS framework for rapid UI development.
+-   **[React Query](https://tanstack.com/query/v4)**: For fetching, caching, and synchronizing server data in React.
+-   **[Zustand](https://docs.pmnd.rs/zustand/getting-started/introduction)**: A small, fast, and scalable state management solution.
+-   **[Jest](https://jestjs.io/)**: A Testing Framework
+
+### Pre-configured Tools
+
+-   **[ESLint](https://eslint.org/)**: For identifying and fixing linting issues in your JavaScript code.
+-   **[Husky](https://typicode.github.io/husky/)**: To run Git hooks.
+-   **[Commitizen](https://commitizen.github.io/cz-cli/)**: For consistent commit messages.
 
 ## Getting Started
 
-First, run the development server:
+1. **Clone the Repository**:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+    ```bash
+    git clone https://github.com/your-repo/nextjs-starter.git
+    cd nextjs-starter
+    ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Install Dependencies**:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+    ```bash
+    npm install
+    ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. **Run the Development Server**:
 
-## Learn More
+    ```bash
+    npm run dev
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+4. **Build for Production**:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    ```bash
+    npm run build
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+5. **Lint Your Code**:
+    ```bash
+    npm run lint
+    ```

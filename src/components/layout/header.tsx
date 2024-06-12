@@ -2,7 +2,6 @@ import { ThemeToggle } from "@/components/layout/theme-toggle";
 import { cn } from "@/lib/utils";
 import { MobileSidebar } from "@/components/layout/mobile-sidebar";
 import Link from "next/link";
-import { Dog } from "lucide-react";
 
 export default function Header() {
   return (
@@ -12,8 +11,7 @@ export default function Header() {
           href={"/"}
           className="hidden items-center justify-between gap-2 md:flex"
         >
-          <Dog className="h-6 w-6" />
-          <h1 className="text-lg font-semibold">PetPedia</h1>
+          <h1 className="text-lg font-semibold">Next.js Starter</h1>
         </Link>
         <div className={cn("block md:!hidden")}>
           <MobileSidebar />
