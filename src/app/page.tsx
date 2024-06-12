@@ -8,7 +8,7 @@ export default function Home() {
 
   return (
     <main className="flex justify-center items-center h-full">
-      <p>index</p>
+      <h1>index</h1>
     </main>
   );
 }
