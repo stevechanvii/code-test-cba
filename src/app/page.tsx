@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+
 // import { useQueryPets } from "@/hooks/query/useQueryPets";
 
 export default function Home() {
@@ -8,7 +10,8 @@ export default function Home() {
 
   return (
     <main className="flex justify-center items-center h-full">
-      <h1>index</h1>
+      {/* <h1>index</h1> */}
+      <Link href="/melbourne">melbourne</Link>
     </main>
   );
 }
